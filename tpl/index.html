@@ -1,6 +1,6 @@
 <div class="container">
     <div class="masthead">
-        <h3 class="muted" id="#logo" data-toggle="tooltip" data-placement="right" title="Now with iOS 8 support"><span class="label label-info">UDID</span> Grabber</h3>
+        <h3 class="muted" id="#logo" data-toggle="tooltip" data-placement="right" title="Now with iOS 8 support"><span class="label label-info">UDID</span> Saver</h3>
     </div>
     <hr>
     {{#message}}
@@ -49,7 +49,7 @@
             {{^udid}}
                 <div class="jumbotron">
                     <h1>Get your iOS UDID...</h1>
-                    <p class="lead">Do you need to find your iOS device's UDID? UDID Grabber allows you to quickly and securely get your UDID. We use 256 bit encryption when storing the UDID in your browser and in the URL. We also host an awesome <a href="/api">API</a> for developers.</p>
+                    <p class="lead">Do you need to find your iOS device's UDID? UDID Saver allows you to quickly and securely get your UDID. We use 256 bit encryption when storing the UDID in your browser and in the URL. We also host an awesome <a href="/api">API</a> for developers.</p>
                     <br/>
                     <a class="btn btn-lg btn-info" id="start-btn">Start UDID Grab</a>
                 </div>
@@ -111,14 +111,14 @@
         {{^ios}}
             <div class="jumbotron">
                 <h1>Get your iOS UDID...</h1>
-                <p class="lead">Do you need to find your iOS device's UDID? UDID Grabber allows you to quickly and securely get your UDID. 256 bit encryption is used when storing the UDID in your browser and in the URL. In addition to this we support iOS 8 and offer a cool API (docs aren't done).</p>
+                <p class="lead">Do you need to find your iOS device's UDID? UDID Saver allows you to quickly and securely get your UDID. 256 bit encryption is used when storing the UDID in your browser and in the URL.</p>
                 <br/>
-                <button type="button" class="btn btn-lg btn-info" id="start-btn" data-toggle="popover" title="Not Supported" data-content="This tool only supports iOS devices. Please visit this page again from an iOS device.">Start UDID Grab</button>
+                <button type="button" class="btn btn-lg btn-info" id="start-btn" data-toggle="popover" title="Not Supported" data-content="This tool only supports iOS devices. Please visit this page again from an iOS device.">Save my UDID</button>
             </div>
             <script>$('#start-btn').popover({trigger: "hover"})</script>
         {{/ios}}
     <hr>
     <div class="footer">
-        <p>© Falkirks 2014</p> <br/>
+        <p>© Radmule 2015</p> <br/>
     </div>
 </div>
