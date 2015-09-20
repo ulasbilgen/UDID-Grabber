@@ -9,18 +9,20 @@
             <key>DeviceAttributes</key>
             <array>
                 <string>UDID</string>
+                <string>VERSION</string>
+                <string>PRODUCT</string>
             </array>
         </dict>
         <key>PayloadOrganization</key>
-        <string>UDID Grabber</string>
+        <string>Radmule UDID Saver</string>
         <key>PayloadDisplayName</key>
-        <string>UDID Grabber Profile Connector</string>
+        <string>Radmule Labs UDID Saver Profile Connector</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadUUID</key>
-        <string>9CF421B3-9853-4456-BC8A-982CBD3C907C</string>
+        <string>03ddbbfb-aa36-4b6b-899d-eddfda437e1b</string>
         <key>PayloadIdentifier</key>
-        <string>com.falkirks</string>
+        <string>com.radmule.register-udid</string>
         <key>PayloadDescription</key>
         <string>This temporary profile will be used to find and display your current device's UDID. The profile will not be installed as our server will cancel the installation.</string>
         <key>PayloadType</key>
